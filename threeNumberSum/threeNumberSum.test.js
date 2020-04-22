@@ -2,7 +2,7 @@ const { threeNumberSum } = require('./threeNumberSum');
 
 describe('edge case tests', () => {
   test('', () => {
-
+    expect(threeNumberSum([], 5)).toEqual([]);
   })
 })
 
